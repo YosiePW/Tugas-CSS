@@ -1,0 +1,552 @@
+div.menu{
+  width: 100%;
+  background:#b32400;
+}
+div.menu ul{
+  list-style-type: none ;/*menghilangkan bullet pada list*/
+  overflow: hidden; /*menghilangkan scrool bar*/
+  padding: 0;/*jarak antara border dengan konten (jarak dalam)*/
+  margin: 0;/*jarak antara tiqp elemen (jarak luar)*/
+}
+div.menu li{
+  float: right; /*posisi elemen dari kanan*/
+}
+div.menu li a{
+  text-decoration: none; /*menghilangkan garis bawah pada link*/
+  color: #fff; /*warna font pada link*/
+  text-align: center;/*rata tengah text*/
+  padding: 14px 16px;/*13 untuk top dan bottom , 15 untuk right dan left*/
+  font-size: 18px;
+  display: block;/*Menampilkan elemen */
+}
+div.menu li a:hover{ /*ketika mouse meraba sebuah elemen*/
+  background: #fff;
+  color: red;
+  border: 2px solid red;
+  /*2px itu tebalnya, solid itu tipe garis, red itu warna border*/
+}
+div.menu img{
+  width: 150px;
+  height: auto;
+  margin: 5px;
+  margin-left: 70px;
+}
+div.header{
+  width: 100%;
+  height: 500px;
+  background-image: url("02.jpg");
+  background-repeat: no-repeat;
+  /*ini agar gambarnya tidak berulang*/
+  background-size: cover;
+  /* ini untuk mengatur ukuran background */
+  /* cover digunakan untuk me fill kan gambar */
+  background-position: center;
+  float: left;
+}
+div.bayangan{
+  width: 100%;
+  height: 500px;
+  background: #000;
+  opacity: 0.5;
+  float: left;
+}
+div.header h1{
+  color: #fff;
+  text-align: center;
+  font-size: 50px;
+  top: 150px;
+  left: 350px;
+  font-weight: bolder;
+  font-family: "Arial";
+  position: absolute;
+}
+div.header h1 img{
+  width: 100px;
+  height: auto;
+}
+div.about{
+  width: 100%;
+  height: 400px;
+  padding: 0;
+  float: left;
+  margin-top: 40px;
+}
+div.about .left{
+  width: 50%;
+  height: 100%;
+  float: left;
+}
+div.about .left h1{
+  text-align: right;
+  text-transform: uppercase;
+  font-size: 50px;
+  font-family: sans-serif;
+  font-weight: 20;
+  border-right: 7px solid red;
+  padding-right: 10px;
+}
+div.about .left p{
+  text-align: right;
+  font-size: 20px;
+  color: grey;
+}
+div.about .right{
+  width: 50%;
+  height: 100%;
+  float: right;
+
+}
+div.about .right img{
+  width: 400px;
+  height: auto;
+  margin-top: 50px;
+  margin-left: 40px;
+  border : 10px solid #000;
+  border-radius: 20px; /*border melengkung*/
+}
+div.layanan{
+  margin-top: 5px;
+  width: 100%
+  height: 400px;
+  float: left;
+  padding: 20px;
+
+}
+div.layanan .box{
+  width: 20%;
+  height: 100%;
+  float: left;
+  margin: 30px;
+}
+div.layanan .box .bunder{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  /* background: red; */
+  margin: 0 auto;
+  display: flex;
+}
+div.layanan .box .bunder span{
+  font-size: 50px;
+  color: #fff;
+  margin: auto;
+}
+div.layanan .box .Deskripsi{
+  margin-top: 10px;
+  text-align: center;
+  color: grey;
+  font-size: 18px;
+}
+
+div.layanan  .box h3{
+  text-align: center;
+  font-size: 19px;
+  font-weight: bolder;
+}
+.text-grey{color:  #ff3333;}
+.text-green{color: #595959 ;}
+.text-blue{color:  #0d0d0d;}
+.text-navy{color:  #cc0000;}
+.text-red{color:  #cc0000;}
+
+
+.bg-grey{background: #ff3333;}
+.bg-green{background:#595959 ;}
+.bg-blue{background: #0d0d0d;}
+.bg-navy{background: #cc0000;}
+
+div.penghargaan{
+  width: 100%;
+  height: 450px;
+  background: url("90.jpg") no-repeat center;
+  background-size: cover;
+  float: left;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  position: relative;
+}
+div.penghargaan .gelap{
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to right, #000, #000, transparent);
+  float: left;
+  opacity: 0.7;
+}
+div.penghargaan .left{
+  width: 50%;
+  text-align: right;
+  border-right: 5px solid red;
+  padding-right: 20px;
+  position: absolute;
+  margin-top: 100px;
+}
+div.penghargaan .left h1{
+  margin: 2px;
+  font-size: 40px;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  color: #fff;
+}
+div.penghargaan .left h3{
+  margin: 2px;
+  font-size: 25px;
+  font-family: sans-serif;
+    color: #fff;
+}
+div.penghargaan .left h4{
+  margin: 2px;
+  font-size: 20px;
+  font-family: sans-serif;
+    color: #fff;
+}
+div.penghargaan .right{
+  position: absolute;
+  left: 700px;
+  width: 50%;
+  height: auto;
+  text-align: left;
+  margin-top: 85px;
+  float: left;
+}
+div.penghargaan .right img{
+  width: 130px;
+  height: auto;
+}
+div.studi{
+  width: 100%;
+  height: 200px;
+  float: left;
+  position: flex;
+  margin-top: 50px;
+}
+div.studi .bunder{
+  width: 100px;
+  height: 100px;
+  background: red;
+  border-radius: 50%;
+  position: flex;
+  margin: auto;
+  display: flex;
+
+}
+div.studi .bunder span{
+  font-size: 50px;
+  color: #fff;
+  margin: auto;
+}
+div.studi h1{
+  text-align: center;
+  font-size: 40px;
+  color: #000;
+}
+div.studi p{
+  color: grey;
+  text-align: center;
+  font-size: 20px;
+}
+div.prodi{
+  margin-top: 60px;
+  width: 100%;
+  height: 500px;
+  float: left;
+  background: linear-gradient(#fff 250px, red 250px);
+}
+div.prodi .jurusan{
+  width: 50%;
+  height: auto;
+  float:left;
+}
+div.prodi .jurusan h3{
+  color: #fff;
+  text-align: center;
+  font-size: 30px;
+  margin: 10px;
+}
+div.prodi .jurusan p{
+  color: #fff;
+  text-align: center;
+  font-size: 17px;
+}
+div.prodi img{
+  margin-left: 120px;
+}
+div.prestasi{
+  width: 100%;
+  height: 500px;
+  float: left;
+  background: linear-gradient(white 400px, red 100px);
+  margin-top: 100px;
+}
+div.prestasi .left{
+  width: 40%;
+  height: auto;
+  float: left;
+}
+div.prestasi .left h1{
+  margin-left: 80px;
+  color: #000;
+  font-size: 50px;
+  border-left: 5px solid red;
+  padding-left: 20px;
+  text-transform: uppercase;
+}
+div.prestasi .left p{
+  margin: 20px;
+  color: grey;;
+  font-size: 20px;
+  margin-left: 80px;
+}
+div.prestasi .right{
+  width: 60%;
+  height: auto;
+  float: left;
+}
+div.prestasi .right img{
+  width: 690px;
+  height: auto;
+  border: 20px solid grey;
+  margin-top: 45px;
+  margin-left: 20px;
+  border-radius: 50px;
+}
+div.prestasi .footer{
+  position: relative;
+  left: 100px;
+  bottom: 40px;
+}
+div.prestasi .footer h3{
+  font-size: 28px;
+  color: #fff;
+  font-family: sans-serif;
+  font-weight: lighter;
+}
+div.info{
+  width: 100%;
+  height: 300px;
+  float: left;
+  margin-top: 100px;
+}
+div.info .bunder{
+  width: 100px;
+  height: 100px;
+  background: red;
+  border-radius: 50%;
+  display: flex;
+  margin: 0 auto;
+}
+div.info .bunder span{
+  margin: auto;
+  font-size: 40px;
+  color: #fff;
+}
+div.info h1{
+  font-size: 40px;
+  color: #000;
+  font-family: sans-serif;
+  font-weight: lighter;
+  margin: 10px;
+  text-align: center;
+  text-transform: uppercase;s
+}
+div.info p{
+  color: grey;
+  font-size: 20px;
+  text-align: center;
+}
+div.update{
+  width: 100%;
+  height: 300px;
+  float: left;
+  background: #cc0000;
+  position: relative;
+}
+div.update .centang{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: #cc0000;
+  display: flex;
+  position: absolute;
+  left: 100px;
+  top: -50px
+}
+div.update .centang span{
+  color: #fff;
+  margin: auto;
+  font-size: 30px;
+}
+div.update .left{
+  width: 50%;
+  height: auto;
+  float: left;
+}
+div.update .left h1{
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 30px;
+  margin-top: 100px;
+  margin-left:100px;
+  font-family: sans-serif;
+  font-weight: lighter;
+}
+div.update .left p{
+  color: #fff;
+  font-size: 20px;
+  margin-left: 100px;
+  font-family: sans-serif;
+  font-weight: lighter;
+}
+div.update .right{
+  width: 50%;
+  height: auto;
+  float: left;
+  margin-top: 80px;
+}
+div.update .right .bunder{
+  width: 100px;
+  height: 100px;
+  background: #fff;
+  border-radius: 50%;
+  margin: 20px;
+  display: flex;
+  float: left;
+}
+div.update .right .bunder span{
+  font-size: 40px;
+  color: red;
+  margin: auto;
+}
+div.partner{
+  width: 100%;
+  height: auto;
+  float: left;
+  margin-top: 100px;
+  margin-bottom: 80px;
+}
+div.partner .bunder{
+  width: 100px;
+  height: 100px;
+  background: red;
+  border-radius: 50%;
+  display: flex;
+  margin: 0 auto;
+}
+div.partner .bunder span{
+  margin: auto;
+  font-size: 40px;
+  color: #fff;
+}
+div.partner h1{
+  font-size: 40px;
+  color: #000;
+  font-family: sans-serif;
+  font-weight: lighter;
+  margin: 30px;
+  text-align: center;
+  text-transform: uppercase;s
+}
+div.partner p{
+  color: grey;
+  font-size: 20px;
+  text-align: center;
+}
+div.partner .atas{
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+div.partner .atas img{
+  width: 150px;
+  height: auto;
+  margin-top: 50px;
+  margin-left: 50px;
+}
+div.partner .bawah{
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+div.partner .bawah img{
+  width: 150px;
+  height: auto;
+  margin-top: 40px;
+  margin-left: 50px;
+}
+div.foo{
+  width: 100%;
+  height: auto;
+  float: left;
+  background:   #1a1a1a;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+div.foo .col{
+  width: 25%;
+  height: auto;
+  color: #fff;
+  padding: 50px;
+  float: left;
+  box-sizing: border-box;
+}
+div.foo .col h2{
+  text-transform: uppercase;
+  font-weight: lighter;
+  font-family: sans-serif;
+  font-size: 16px;
+}
+div.foo .col .fab{
+  margin: 5px;
+  font-size: 20px;
+}
+div.foo .col h3{
+  text-transform: uppercase;
+  font-family: sans-serif;
+  font-weight: lighter;
+  font-size: 15px;
+}
+div.foo .col h4{
+  font-family: sans-serif;
+  font-weight: lighter;
+  font-size: 14px;
+  color:  #a6a6a6;
+}
+div.foo .col p{
+  color:  #a6a6a6;
+  font-family: sans-serif;
+  font-weight: lighter;
+  font-size: 14px;
+}
+div.footer{
+  width: 100%;
+  height: 70px;
+  float: left;
+  background:  #000000;
+}
+div.footer .left{
+  width: 50%;
+  height: auto;
+  float: left;
+}
+div.footer .left h3{
+  font-family: sans-serif;
+  font-weight: lighter;
+  color: #a6a6a6;
+  font-size: 14px;
+  margin-left: 40px;
+  padding: 10px;
+}
+div.footer .right{
+  width: 50%;
+  height: auto;
+  float: left;
+}
+div.footer .right h3{
+  text-align: right;
+  font-family: sans-serif;
+  font-weight: lighter;
+  color: #a6a6a6;
+  font-size: 14px;
+  margin-left: 40px;
+  padding: 10px;
+  margin-right: 40px;
+}
